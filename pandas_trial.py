@@ -23,6 +23,6 @@ df=pd.DataFrame({
     "AGE":(i for i in ages),
     "GENDER":(i for i in genders)
 })
-df.insert(4,"UNIVERSITY" , "DeKUT")#inserting a third column with static value
+df.insert(4,"UNIVERSITY" , "DeKUT")#inserting a fifth column with static value
 df.head()
 print(df)
